@@ -1,0 +1,126 @@
+.first
+{
+flex: 1;
+}
+.second
+{
+flex: 3;
+}
+.third
+{
+width: 1;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: royalblue;
+    height: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+button
+{
+    display: inline-block;
+    height: 30px;
+    margin-top: 4px;
+}
+
+
+.n1
+{
+    flex: 2;
+    border: 1px solid blue;
+    
+}
+.n2
+{
+    flex: 4;
+    border: 1px solid blue;
+    
+
+}
+
+.nav
+{
+    display: flex;
+    text-align: center;
+}
+.navbar
+{
+    text-align: center !important; 
+}
+li
+{
+    display: inline-block;
+    border: 2px solid rebeccapurple;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+
+    margin: 2px;
+}
+
+.intro
+{
+   text-align: center; 
+   word-spacing: 0px;
+}
+.sp1
+{
+    color: royalblue;
+}
+.sp2
+{
+    color: green;
+}
+.para
+{
+    text-align: justify;
+    margin: 9px 50px 9px 50px;             /*top right bottom left*/
+}
+.help
+{
+ display:flex;
+ background-color: royalblue;
+ text-align: center;
+ flex-wrap: wrap;
+
+
+}
+.hp1 
+{
+  flex: 2;
+}
+.hp2
+{
+  flex: 2;
+}
+.hp3
+{
+  flex: 2;   
+}
+.hp4
+{
+  flex: 2;   
+}
+
+@media  only screen and (max-width: 576px)
+{
+body{
+
+  width: 200px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
